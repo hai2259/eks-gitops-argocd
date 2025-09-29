@@ -172,4 +172,4 @@ argocd login $ARGOCD_SERVER --username admin --password $ARGO_PWD --insecure
 Add ECR helm repo
 ```
 argocd repo add XXXXXXXXXX.dkr.ecr.us-west-2.amazonaws.com --type helm --name eks-gitops-argocd --enable-oci --username AWS --password $(aws ecr get-login-password --region us-west-2)
-```
+```# eks-gitops-argocd
